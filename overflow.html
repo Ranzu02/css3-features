@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=`">
+    <title>Overflow</title>
+    <style>
+        .overflow{
+            width:300px;
+            height: 300px;
+            border: 2px solid aquamarine;
+        }
+        .div-1{
+            overflow-y: scroll;
+        }
+
+        .div-2{
+            overflow: hidden;
+        }
+
+        .div-3 {
+            overflow: auto;
+        }
+        .ellipsis{
+            width: 300px;
+            height: 20px;
+            border: 2px solid tomato;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            /* text-overflow: clip; */
+
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <p title="I am a serious learner. I must spend 6-8 hours everyday to keep learning and being successful in web developement" class="ellipsis">I am a serious learner. I must spend 6-8 hours everyday to keep learning and being successful in web developement</p>
+            <div class="overflow div-1">
+                <h3>Testing overflow</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, magnam in! Alias, placeat recusandae eveniet ab accusantium possimus? Et enim temporibus impedit mollitia quisquam iure nostrum ut itaque sit assumenda obcaecati officiis maxime minus doloremque architecto, dolor alias iste debitis ipsum ipsa similique neque. Incidunt explicabo impedit aut, aliquam dolores fugit non ipsam ea dolor animi eum cum cumque veritatis fuga dolorem dicta pariatur accusantium sapiente atque nisi reiciendis ratione? Officiis quae facilis repudiandae fugit, voluptatem nemo perferendis voluptates repellendus officia atque consequuntur veniam, sed neque facere magni aliquid qui omnis soluta ratione ea nam? Ipsum, sapiente quam, eveniet reiciendis quaerat vel veritatis reprehenderit unde blanditiis optio ea, quia doloremque quo fugiat earum consectetur cupiditate voluptate eos amet? Blanditiis, hic in, similique non culpa ullam possimus vitae fugiat tempore distinctio minima eligendi quidem quas nihil ratione, rem assumenda corrupti provident sed aut totam architecto deserunt animi fugit. Incidunt facilis minus magnam, nemo libero assumenda reiciendis, excepturi aliquid laboriosam sit harum reprehenderit, enim dicta quis! Sunt natus, accusamus hic earum tempora voluptate explicabo alias laboriosam placeat laudantium! Asperiores cupiditate enim, necessitatibus pariatur placeat nesciunt delectus, perspiciatis inventore odit, optio adipisci distinctio. Natus ea nihil minima animi laborum architecto tempore repellendus fuga.</p>
+            </div>
+            <div class="overflow div-2">
+                <h3>Testing overflow</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laboriosam voluptatum ratione quo nisi provident blanditiis odit ex ipsum commodi quisquam natus placeat quibusdam quia asperiores ullam nam, unde odio itaque delectus earum porro repudiandae eum quaerat. Repellendus rem expedita, commodi ipsam et aspernatur corrupti quam. Assumenda omnis quae nesciunt consequuntur perspiciatis repellat recusandae deserunt. Unde corrupti, ad voluptates molestiae dolore ab minima repellendus. Eos iusto tenetur nostrum architecto ab! Fugit voluptates reprehenderit autem maxime earum. Quisquam, cum vero optio architecto earum minima quod, repellat possimus blanditiis sapiente enim ipsam necessitatibus perspiciatis temporibus fugit eligendi eaque saepe iure? Rem optio sit amet modi assumenda delectus corrupti, cupiditate id aut, eum eos saepe accusantium numquam voluptate dolorum, reiciendis laudantium nesciunt. Quibusdam sed aut dolores laudantium omnis qui magnam expedita quidem quam deleniti vel quisquam commodi, odit asperiores! Accusantium minus magnam quibusdam optio aut aliquam, laboriosam odit consequuntur culpa consectetur quo dolore fuga in alias? Consequuntur nobis veniam minima itaque, optio ratione illo? Quo itaque, sequi deleniti facere non inventore, reiciendis libero, labore sit eaque voluptatibus? Fugiat totam soluta, unde, inventore beatae facere blanditiis at dignissimos, quis libero nemo sint corporis nesciunt atque magni earum enim ex quisquam eos ducimus id. Quibusdam.</p>
+            </div>
+            <div class="div-3 overflow">
+                <h3>Testing Overflow</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque omnis molestias quisquam porro corporis ipsa nemo veniam, nostrum dolorum voluptates quae minima, placeat reprehenderit quas dicta nisi quis eos quod expedita ab quibusdam obcaecati perspiciatis itaque similique? Reprehenderit magni consequatur cum aut. Ea incidunt animi molestias consequuntur expedita dolorum voluptatibus </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
