@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transform</title>
     <style>
+        body {
+            margin: 50px;
+        }
         .container {
+            border: 2px solid steelblue;
             background-color: aquamarine;
             height: 200px;
             width: 200px;
@@ -14,9 +18,19 @@
         }
 
         .inner {
+            border: 2px solid brown;
             background-color: blueviolet;
             height: 200px;
             width: 200px;
+            /* display: none; */
+            /* transform: scale(0.25, 0.50); */
+            /* transform: rotate(-45deg); */
+            transform: scale(.5) rotate(45deg) translateX(30px);
+            /* transform: translateY(20px); */
+        }
+
+        .inner:hover {
+            transform: rotate(45deg);
         }
     </style>
 </head>
